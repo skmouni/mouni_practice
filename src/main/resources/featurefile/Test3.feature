@@ -28,8 +28,8 @@ Feature: My login feature
      # | skmounikuruba73@gmail.com | maneesha      |
     Scenario Outline: login with username and password
       Given open browser
-      When enter the url""https://www.naukri.com/nlogin/login?msg=0&URL=https%3A%2F%2Fmy.naukri.com"
-      And enter user "<Username>" name and password"<password>"
+      When enter the url "https://www.naukri.com/nlogin/login?msg=0&URL=https%3A%2F%2Fmy.naukri.com"
+      And enter user "<username>" name and password "<password>"
       And click on login button
       Examples:
      |username            |password            |
